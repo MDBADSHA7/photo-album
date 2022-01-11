@@ -1,0 +1,32 @@
+.photo-fream{
+    width: 200px;
+    height:200px;
+    border: 2px dashed gold;
+    border-radius: 10px;
+    position: relative;
+}
+.photo img{
+    width: 200px;
+    height: 200px;
+}
+.photo-detail{
+    position: absolute;
+    width: 200px;
+    top: 0px;
+    display: none;
+}
+.photo-album{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo-fream:hover .photo-detail{
+    display: block;
+    background-color: blue;
+    color: ivory;
+}
+.photo-detail h3{
+    background-color: crimson;
+    color: gold;
+    text-align: center;
+}
+
